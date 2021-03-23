@@ -1,6 +1,16 @@
 .walrus-showing {
   display: none;
 }
-#here {
+#here, #there {
   color: cyan;
+}
+body {
+  background: rgb(170, 1, 255);
+}
+.clickable {
+  cursor: pointer;
+  color: #00679b;
+}
+.clickable:hover {
+  text-decoration: underline;
 }
